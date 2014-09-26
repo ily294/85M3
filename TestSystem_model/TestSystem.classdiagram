@@ -302,6 +302,93 @@
         <elementDefinition Id="7f2af9b7-b242-41b6-a2e3-35ef8a54e283" />
       </referencedType>
     </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="536b8b5b-a990-4013-893a-b8ecd4b86535" name="Form1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="14ea62e8-35ac-4957-825b-11f7fa76bbf7" />
+        <targetEnds>
+          <association Id="e33a03e2-cf08-4c9c-bf5a-5ef83bdaec92" isDerived="false" sourceEndRoleName="Form1" targetEndRoleName="JSON_Format" isLeaf="false" isAbstract="false">
+            <classMoniker Id="da12d8aa-9dab-4bae-ac4c-6c460d352f62" LastKnownName="JSON_Format" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2b95b5a-693c-4272-828b-3da1d21831cc" name="Form1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e69cfbc8-fca5-466c-a848-7197153bd4ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc2e1ec5-5d53-4912-91c5-f6123b7e1f15" name="JSON_Format" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="d71fb8fa-f8d5-4706-ace0-00f8cfa18924" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4857bb13-284a-465f-b8eb-b853770060c3" />
+          </association>
+          <association Id="a29e9a10-102f-4a2a-92cc-3533a3a5c6b8" isDerived="false" sourceEndRoleName="Form1" targetEndRoleName="TestSystem" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c8241975-047b-489f-8b70-27e1fd9fca69" LastKnownName="TestSystem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="69a783b5-863f-4d53-8246-4b3d5b1b8fec" name="Form1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e40868fe-c351-4914-822a-e9f2b97a3938" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="192c54f2-650d-45de-bdd2-c131a1b97d18" name="TestSystem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="76d8eef5-9c9c-4249-a925-e04981de21aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7fd1aeba-928d-4875-9095-32195666ae82" />
+          </association>
+          <association Id="dcfe25ae-a6a9-48c8-9045-4c4d729fa0d4" isDerived="false" sourceEndRoleName="Form1" targetEndRoleName="EnterParams" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3653aefb-91ed-4ade-8c2f-6589134d5d13" LastKnownName="EnterParams" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2e3c410-6c88-4df2-8010-4d73fff63eec" name="Form1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3d55e17b-3dff-4f29-8d3d-9d0b9e3cfab3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="637042ac-cd2c-46ac-bb30-2d851c2fd027" name="EnterParams" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="736125f9-fed6-47af-906b-196cc22ec880" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="54ee7632-89f7-4800-8ce0-76765b08893d" />
+          </association>
+          <association Id="58623e6d-e866-4a87-b577-224702e7f0b6" isDerived="false" sourceEndRoleName="Form1" targetEndRoleName="BasicAlgorithm" isLeaf="false" isAbstract="false">
+            <classMoniker Id="15638972-4a5a-444c-bc6c-b8fb6989dadb" LastKnownName="BasicAlgorithm" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fce27e62-7176-4e14-9de7-b376fbf679dd" name="Form1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2125738b-eb33-4fa1-acf1-557c6f3817a4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dbdc5432-8229-4526-bcde-a5bdcea1537f" name="BasicAlgorithm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="6ead3a80-ed69-4c7f-8dfe-7e57d16a77a4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="486484f1-e3c2-4d27-a6aa-f7e5a5950717" />
+          </association>
+          <association Id="5af15632-cd08-4469-8eb5-12e2dd7efacc" isDerived="false" sourceEndRoleName="Form1" targetEndRoleName="GenAlgorithm" isLeaf="false" isAbstract="false">
+            <classMoniker Id="925bbf88-e3e0-4134-aa57-771abeb79212" LastKnownName="GenAlgorithm" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab2095b5-277a-4775-945a-9085bd6b2187" name="Form1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="23d7cab0-d20f-49b5-99c5-79c59b5095f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eec30c11-973c-498a-9719-4309f8539c7e" name="GenAlgorithm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="7ebf337d-92ae-4973-8099-c076cf347881" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c41ce5d2-a659-49a9-9778-ab48fda84aee" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="525f4b31-1acc-4158-9b8b-545652df3bb6" name="TestSystem_model">
     <elementDefinition Id="219dedf5-d731-4d2c-b73b-45bbd7589ff0" />
