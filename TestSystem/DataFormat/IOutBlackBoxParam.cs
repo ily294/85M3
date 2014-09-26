@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestSystem.test_system
+namespace TestSystem.DataFormat
 {
-    interface IBlackBoxParam
+    interface IOutBlackBoxParam
     {
     }
 }
