@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestSystem_beta.Algorithm
 {
+    /**
+     *Этот интерфейс должны наследовать все алгоритмы
+     */
     interface IAlgorithm
     {
     }
