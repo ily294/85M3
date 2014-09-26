@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm\IAlgorithm.cs" />
+    <Compile Include="DataFormat\IDataFormat.cs" />
     <Compile Include="DataFormat\IEnterBlackBoxParam.cs" />
     <Compile Include="DataFormat\IOutBlackBoxParam.cs" />
     <Compile Include="Form1.cs">
