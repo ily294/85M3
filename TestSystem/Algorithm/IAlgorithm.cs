@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestSystem_beta.Algorithm
+namespace TestSystem.Algorithm
 {
     interface IAlgorithm
     {
