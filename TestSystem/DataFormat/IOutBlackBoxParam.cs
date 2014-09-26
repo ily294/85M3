@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestSystem.DataFormat
 {
+    /**
+     * интерфейс, наследуемый классом, содержащим выходные параметры чёрного ящика
+     */
     interface IOutBlackBoxParam
     {
     }
